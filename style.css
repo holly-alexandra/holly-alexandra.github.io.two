@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Libre+Baskerville:400,400i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400&display=swap');
+
+body {
+  background-color: white;
+  color: white;
+  font-family: "dancing script", cursive;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 100px;
+  background-color: pink;
+  border: 2px solid blue;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+h2 {
+  color:black;
+  text-align: center;
+  font-size: 90px
+  font-family: "libre baskerville", serif;
+  margin-bottom: 40px;
+  margin-top: 40px
+}
+
+li {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+
+
+img {
+  display: block;
+  border-radius: 70%;
+  margin: 20px auto;
+  width: 80%;
+}
+
+
+.mammals {
+color: red;
+font-weight: bold;
+}
+
+.fish {
+color: orange;
+text-decoration: underline;
+}
+
+.birds {
+color: blue;
+font-style: italic;
+}
+
+#first-list {
+  background-color: black;
+}
+
+#first-list li {
+  display: inline-block;
+  margin: 30px;
+  width: 16%;
+}
+
+
+#second-list {
+  background-color: black;
+}
